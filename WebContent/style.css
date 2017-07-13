@@ -1,0 +1,161 @@
+body{
+	background-image:url("im7.png") ;
+}
+#IndexHeading{
+	text-align:center;
+	margin-top:70px;	
+	color:#14746B;
+}
+#divIndex{
+	width:500px;
+	margin-right:auto;
+	margin-left:auto;
+	border:4px groove #199C90;
+	padding:15px;
+}
+form.formIndex{
+	 margin: 0 auto;
+     display: table;
+	
+}
+.submitBtns{
+	background-color: #199C90;
+	margin:8px;
+	border:none;
+	color:white;
+	padding:8px 14px;
+	text-decoration: none;
+	display:inline-block;
+	font-size:14px;
+	cursor:pointer;
+	border-radius:4px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	
+}
+.submitBtns:hover{
+	background-color: #14746B;
+}
+
+select{
+	border:none;
+	color: black;
+	background-color:transparent;
+	border: 1px solid #199C90;
+	padding:8px 14px;
+	text-decoration: none;
+	display:inline-block;
+	font-size:14px;
+	border-radius:4px;
+}
+#headingAddMatch{
+	text-align:center;
+	color:#14746B;
+}
+input[type=text].inputAddMatch{
+	margin:10px;
+	width:100%;
+	border:2px solid #199C90;
+	padding:10px;
+	box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+input[type=date].dateAddMatch	{
+	margin:10px;
+	width:100%;
+	border:2px solid #199C90;
+	padding:10px;
+	box-sizing: border-box;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#formAddMatch{
+	 height:400px;
+             width:400px;
+             position: absolute;
+             left: 50%;
+             top: 50%;
+             margin: -200px 0 0 -200px;
+}
+#btnAddMatch{
+	width:100%;
+	margin-left:10px;
+	padding:12px 20px;
+}
+.teamName{
+	color:#14746B;
+}
+input[type=text].textPlayers{
+	margin:10px;
+	border:2px solid #199C90;
+	padding:8px;
+	box-sizing: border-box;
+    outline: none;
+}
+.txtChoose{
+	color:#14746B;
+}
+#battingDiv    {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+#outerDiv {
+  display: flex;
+}
+
+#battingDiv {
+  flex: 1; 
+  
+}
+#bowlingDiv{
+	flex: 1; 
+}
+#txtRuns{
+	margin:10px;
+	border:2px solid #199C90;
+	padding:8px;
+	box-sizing: border-box;
+    outline: none;
+}
+#bowlerInfo{
+	font-size:16px;
+	margin-left:5px;
+	margin-top:15px;
+	
+}
+.txtMatch{
+	color:#14746B;
+	
+}
+.txtMatchName{
+		text-align:center;
+	color:#14746B;
+	
+}
+.txtUpdate{
+	margin:10px;
+	width:100%;
+	border:2px solid #199C90;
+	padding:6px;
+	box-sizing: border-box;
+    outline: none;
+}
+#divUpdate{
+	width:400px;
+	margin-right:auto;
+	margin-left:auto;
+	padding:15px;
+}
+#update{
+	width:100%;
+}
+#chooseScndBats{
+	color:#14746B;
+}
+#btnNewInn{
+	
+}
